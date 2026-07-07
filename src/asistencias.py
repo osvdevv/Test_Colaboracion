@@ -8,7 +8,7 @@ Representación:
 
 
 def contar_clases(asistencias_alumno):
-    pass
+    return len(asistencias_alumno)
 
 
 def contar_asistencias(asistencias_alumno):
