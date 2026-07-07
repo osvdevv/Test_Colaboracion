@@ -12,7 +12,7 @@ def contar_clases(asistencias_alumno):
 
 
 def contar_asistencias(asistencias_alumno):
-    pass
+    return asistencias_alumno.count(1)
 
 
 def contar_faltas(asistencias_alumno):
