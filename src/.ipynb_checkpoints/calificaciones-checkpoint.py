@@ -9,9 +9,9 @@ condicionales, diccionarios y funciones.
 def contar_calificaciones(calificaciones):
     return len(calificaciones)
 
+
 def sumar_calificaciones(calificaciones):
     return sum(calificaciones)
-    
 
 def calificacion_maxima(calificaciones):
     if not calificaciones:
@@ -30,6 +30,7 @@ def contar_aprobados(calificaciones):
             aprobados += 1
     return aprobados
 
+
 def contar_reprobados(calificaciones):
     reprobados = 0
     for calificacion in calificaciones:
@@ -37,11 +38,12 @@ def contar_reprobados(calificaciones):
             reprobados += 1
     return reprobados
 
+
 def clasificar_calificacion(calificacion):
     if calificacion >= 90:
         return "Excelente"
     elif calificacion >= 80:
-        return "Buena"
+        return "Bueno"
     elif calificacion >= 70:
         return "Regular"
     else:
@@ -132,3 +134,4 @@ def resumen_calificaciones(calificaciones):
         "porcentaje_reprobados": porcentaje_reprobados(calificaciones),
         "distribucion": frecuencia_calificaciones(calificaciones)
     }
+# by osvdevv
