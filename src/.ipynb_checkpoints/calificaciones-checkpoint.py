@@ -9,10 +9,9 @@ condicionales, diccionarios y funciones.
 def contar_calificaciones(calificaciones):
     return len(calificaciones)
 
-
 def sumar_calificaciones(calificaciones):
     return sum(calificaciones)
-
+    
 
 def calificacion_maxima(calificaciones):
     if not calificaciones:
